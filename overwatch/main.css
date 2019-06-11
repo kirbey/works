@@ -1,50 +1,38 @@
 body {
-    margin: 0;
-}
+  margin: 0; }
 
 div {
-    height: 50vh;
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+  height: 50vh;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 div svg {
-    height: 100%;
-}
+  height: 100%; }
 
 .overwatch-text,
 .overwatch-lowercircle {
-    fill: #4A4C4E;
-}
+  fill: #4A4C4E; }
 
 .darkback .overwatch-text,
 .darkback .overwatch-lowercircle {
-    fill: white;
-}
+  fill: white; }
 
 .overwatch-triangles,
 .overwatch-uppercircle {
-    fill: #FA9C1E;
-}
+  fill: #FA9C1E; }
 
 div.dark {
-    background: #4A4C4E;
-}
+  background: #4A4C4E; }
 
 @media all and (max-width: 800px) {
-    .overwatch-circle {
-        opacity: 0;
-    }
-}
+  .overwatch-circle {
+    opacity: 0; } }
 
 @media all and (max-width: 500px) {
-    .overwatch-circle {
-        opacity: 1;
-    }
-    .overwatch-text,
-    .overwatch-triangles {
-        opacity: 0;
-    }
-}
+  .overwatch-circle {
+    opacity: 1; }
+  .overwatch-text,
+  .overwatch-triangles {
+    opacity: 0; } }

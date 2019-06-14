@@ -4,5 +4,5 @@ function layer() {
     tpl: 'testTpl'
   };
 }
-
+ 
 export default layer;
